@@ -1,0 +1,44 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    text-align: center;
+}
+
+.dashboard-section {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    text-align: left;
+}
+
+.dashboard-section h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.dashboard-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-section li {
+    background: #f8f8f8;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+}
+
+.dashboard-section li a {
+    text-decoration: none;
+    color: #3b82f6;
+    font-weight: bold;
+}
+
+.dashboard-section li a:hover {
+    text-decoration: underline;
+}
