@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import "../styles/properties.css";
 
-const API_URL = "http://localhost:5001/api/properties";
+const API_URL = "http://18.118.157.94:5001/api/properties";
 
 const Properties = () => {
     const [properties, setProperties] = useState([]);
